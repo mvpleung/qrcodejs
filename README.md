@@ -4,8 +4,8 @@ QRCode.js has no dependencies.
 
 ## install 
 ```
-npm install qr-code
-import QRCode from 'qr-code'
+npm install qrcode-lib
+import QRCode from 'qrcode-lib'
 ```
 
 ## Basic Usages
