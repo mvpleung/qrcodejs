@@ -1,7 +1,7 @@
 {
   "name": "qrcode-lib",
-  "version": "0.0.1",
-  "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.",
+  "version": "0.0.2",
+  "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies. Support logo.",
   "main": "qrcode.js",
   "scripts": {
     "build": "webpack --progress --hide-modules"
@@ -13,8 +13,10 @@
   "keywords": [
     "QRCode",
     "二维码",
+		"二维码，支持logo",
     "qrcode",
-    "qrcodejs"
+    "qrcodejs",
+    "支持logo"
   ],
   "author": "mvpleung <mvpleung@gmail.com>",
   "license": "ISC",
