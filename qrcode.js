@@ -415,6 +415,7 @@ var QRCode;
 			}
 			if (_htOption.logo) {
 				var img = new Image();
+				img.crossOrigin = '';
 				img.setAttribute('crossOrigin', 'anonymous');
 				var self = this;
 				img.onload = function() {
@@ -427,6 +428,7 @@ var QRCode;
 					_oContext.strokeStyle = "white";
 					_oContext.strokeRect(x, y, _htOption.imgWidth, _htOption.imgHeight);
 					self.makeImage();
+					URL.revokeObjectURL(_htOption.logo);
 				}
 				img.src = _htOption.logo;
 			}
